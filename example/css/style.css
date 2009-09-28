@@ -1,0 +1,154 @@
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+/*font-size: 100%;*/
+font-family: inherit;
+vertical-align: baseline;
+background: transparent;
+}
+/* Не забываем описать стили для :focus! */
+:focus {
+outline: 0;
+}
+body {
+line-height: 1;
+color: #b6b6b6;
+font-family:Arial, Verdana;
+background:url(../images/mbg.jpg) top left;
+}
+ol, ul {
+list-style: none;
+}
+
+/* Type HTML elements */
+.xlarge, table.xlarge td, td.xlarge {font-size: 24px; line-height: 28px;}
+.large, table.large td, td.large {font-size: 18px; line-height: 22px;}
+.normal, table.normal td, td.normal {font-size: 14px; line-height: 18px;}
+.small, table.small td, td.small {font-size: 12px; line-height: 16px;}
+.smaller, table.smaller td, td.smaller {font-size: 10px; line-height: 13px;}
+
+p {margin: 0 0 1.2em 0;}
+
+/* Для таблиц все еще надо прописывать 'cellspacing="0"' в коде */
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+caption, th, td {
+text-align: left;
+font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: "";
+}
+blockquote, q {
+quotes: "" "";
+}
+
+br {line-height:12px;}
+
+.db {display:block;}
+.floleft {float:left;}
+.floright {float:right;}
+.clear {clear:both;}
+.vt {vertical-align:top;}
+.vb {vertical-align:bottom;}
+
+#bgn {background:none;}
+
+a {color:#ffdbb1;}
+a:hover { color: #c69359; }
+h1 {color:#b45500;
+	font-size:26px;
+	font-weight: normal;
+	padding-bottom:20px;}
+h6 {font-weight:lighter;}
+
+.formenu {height:50px;}
+
+
+
+.menu {width:1095px;
+	   background:url(../images/menubg.png) repeat-x  top left;
+       margin-top: -5px;
+}
+
+
+.menut {width:100%; text-align:center;
+}
+
+
+.menu b {line-height:47px;  background:url(/layouts/common/images/menupol.gif) no-repeat  top left; 
+	     text-align:center; width:1px;}
+
+.menuspace {line-height:47px;  background:url(/layouts/common/images/menupol.gif) no-repeat center 7px; 
+			     text-align:center; width:1px;}
+
+.menu a {text-align:center;
+		 display:block; 
+		 color:#FFFFFF;
+		 text-decoration:none;
+		 font-size:15px;
+		 height:47px;
+		 line-height:47px;
+		 margin:0 10% 0 10%;}
+.menu a:hover { color: #b6b6b6; }
+
+   
+	   
+.mainbg {
+        margin-top:0px;
+        background:url(../images/bigb.jpg) repeat-y bottom left; 
+		 width:99%;
+		 height:390px;
+         background-position:0 34px;
+}
+
+.lstr {width:38px; padding:200px 0 0 46px;}
+.rstr {width:33px; padding:200px 0 0 0;}
+
+.lstr a {background:url(../images/lst.png) no-repeat top left;
+	     width:38px;
+	     height:70px;}
+.lstr a:hover {background:url(../images/lst_o.png) no-repeat top left;
+}
+
+
+.rstr a {background:url(../images/rst.png) no-repeat top left;
+	     width:33px;
+	     height:70px;}
+.rstr a:hover {background:url(../images/rst_o.png) no-repeat top left;}
+.decap {background:url(../images/imgrb.png) no-repeat right 330px;
+		/*height:498px;*/
+		width:1095px; } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
